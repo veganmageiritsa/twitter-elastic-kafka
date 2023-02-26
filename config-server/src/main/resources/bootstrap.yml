@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: confgiserver
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/veganmageiritsa/twitter-elastic-kafka/blob/4ec60f5a341360edb7ecc7027a8dc58a5e88242b/config-server-repository
+          clone-on-start: true
+      fail-fast: true
