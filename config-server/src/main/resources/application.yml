@@ -13,11 +13,11 @@ spring:
     config:
       server:
         git:
-#          uri: https://github.com/veganmageiritsa/twitter-elastic-kafka/blob/4ec60f5a341360edb7ecc7027a8dc58a5e88242b/config-server-repository
-          uri: https://github.com/veganmageiritsa/spring-cloud-config-server-repository
+          uri: https://github.com/veganmageiritsa/twitter-elastic-kafka/blob/4ec60f5a341360edb7ecc7027a8dc58a5e88242b/config-server-repository
+#          uri: https://github.com/veganmageiritsa/spring-cloud-config-server-repository
           default-label: main
           username: veganmageiritsa
-          password: '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'
+          password: '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'
           clone-on-start: true
     fail-fast: true
 #  security:
